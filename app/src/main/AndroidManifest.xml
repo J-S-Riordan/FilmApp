@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jasonsriordan.filmapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".FilmAppMainScreen"
+            android:label="@string/main_screen_title"></activity>
+
+        <activity
+            android:name=".FilmAppLogin"
+            android:label="@string/login_screen_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".FilmAppRegister"
+            android:label="@string/register_screen_title"
+            android:parentActivityName=".FilmAppLogin" />
+
+        <activity android:name=".NewEntry"
+            android:label="@string/new_entry_screen_title"
+            android:parentActivityName=".FilmAppMainScreen"
+            ></activity>
+
+
+    </application>
+
+</manifest>

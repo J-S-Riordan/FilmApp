@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Film App</string>
+
+    <string name="main_screen_title">Film App</string>
+    <string name="login_screen_title">Login to Film App</string>
+    <string name="register_screen_title">Register for Film App</string>
+    <string name="new_entry_screen_title">Create a New Entry</string>
+
+    <string name="enter_user">Username</string>
+    <string name="day">Day</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="create_account">Create Account</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+    <string name="new_entry">New Entry</string>
+
+    <string name="entry_title">Title</string>
+    <string name="entry_release">Release</string>
+    <string name="entry_director">Director</string>
+    <string name="create_entry">Create Entry</string>
+
+    <string name="entry_success">Entry Created!</string>
+
+
+
+
+</resources>
